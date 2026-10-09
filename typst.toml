@@ -1,0 +1,11 @@
+[package]
+name = "tum-dissertation"
+version = "0.1.0"
+entrypoint = "tum-dissertation/lib.typ"
+authors = ["Robert Jandow"]
+description = "Dissertations at TUM with the official cover page for submission."
+keywords = ["tum", "dissertation", "thesis", "technical university of munich"]
+categories = ["thesis"]
+compiler = "0.15.0"
+license = "MIT"
+repository = "https://github.com/robertjndw/typst-tum-dissertation"

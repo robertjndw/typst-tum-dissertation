@@ -1,0 +1,3 @@
+= Additional Material
+
+Chapters included after `#show: appendix` are numbered A, B, C, ...

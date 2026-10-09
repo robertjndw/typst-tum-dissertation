@@ -1,0 +1,27 @@
+name: Build typst
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - uses: typst-community/setup-typst@v5
+        with:
+          typst-version: 0.15.1
+      - run: typst fonts --font-path fonts
+      - run: typst compile --font-path fonts main.typ main.pdf
+      - run: typst compile --root . --font-path fonts tests/twoside.typ twoside.pdf
+      - name: Check that invalid dates are rejected
+        run: "! typst compile --root . --font-path fonts tests/invalid-date.typ invalid.pdf"
+
+      - name: Upload PDFs
+        uses: actions/upload-artifact@v7
+        with:
+          name: dissertation
+          path: "*.pdf"
