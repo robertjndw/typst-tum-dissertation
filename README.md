@@ -5,9 +5,8 @@
 </p>
 
 Dissertations at the Technical University of Munich (TUM), with the cover page
-TUM asks for when you submit. The cover is ported from the TUM LaTeX
-dissertation template. Everything after it is a simple book layout you can
-change as you like.
+TUM asks for when you submit. Everything after the cover is a simple book
+layout you can change as you like.
 
 ## Examples
 
@@ -75,12 +74,12 @@ with the rest of the project.
   `tum-colors.primary-blue` or `tum-colors.accent-orange`. The accent colors
   are meant for highlights only, not for backgrounds.
 
-## How the cover was ported
+## How the cover was made
 
-Positions, font sizes and spacing were measured from a dissertation built with
-the TUM LaTeX template and are within about a point of it. The LaTeX version
-uses Latin Modern Sans and Helvetica, here New Computer Modern Sans and TeX
-Gyre Heros stand in for them.
+Positions, font sizes and spacing were measured from a submitted TUM
+dissertation and are within about a point of it. That one uses Latin Modern
+Sans and Nimbus Sans, here New Computer Modern Sans and TeX Gyre Heros stand
+in for them.
 
 This is not an official TUM template. Check the current requirements of the
 TUM Graduate School before you submit.

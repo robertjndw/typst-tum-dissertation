@@ -1,5 +1,4 @@
-// Unnumbered headings and roman page numbers. The cover counts as page i,
-// same as in the LaTeX template.
+// Unnumbered headings and roman page numbers. The cover counts as page i.
 #let _frontmatter(
   abstract: none,
   zusammenfassung: none,

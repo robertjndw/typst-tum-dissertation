@@ -1,4 +1,4 @@
-// Cover page, measured against the one from the TUM LaTeX template.
+// Cover page, measured against a submitted TUM dissertation.
 
 #import "colors.typ": tum-colors
 #import "fonts.typ": _fonts
