@@ -42,10 +42,10 @@ Everything the template needs but you should not touch lives in
 typst compile --font-path fonts main.typ
 ```
 
-The cover needs New Computer Modern Sans and TeX Gyre Heros, which are not
-built into Typst. They are in [`fonts/`](fonts/), so always pass
-`--font-path fonts`. In the Typst web app, upload the `fonts/` folder together
-with the rest of the project.
+The cover and headings are set in TUM Neue Helvetica, the TUM corporate font.
+It and the fallback fonts are not built into Typst. They are in
+[`fonts/`](fonts/), so always pass `--font-path fonts`. In the Typst web app,
+upload the `fonts/` folder together with the rest of the project.
 
 ### Options
 
@@ -74,13 +74,6 @@ with the rest of the project.
   `tum-colors.primary-blue` or `tum-colors.accent-orange`. The accent colors
   are meant for highlights only, not for backgrounds.
 
-## How the cover was made
-
-Positions, font sizes and spacing were measured from a submitted TUM
-dissertation and are within about a point of it. That one uses Latin Modern
-Sans and Nimbus Sans, here New Computer Modern Sans and TeX Gyre Heros stand
-in for them.
-
 This is not an official TUM template. Check the current requirements of the
 TUM Graduate School before you submit.
 
@@ -107,5 +100,9 @@ TUM. You may only use it as the TUM corporate design guidelines allow
 reuse, change or redistribute it. This also goes for the logo in the
 thumbnail and the example previews.
 
-The fonts in `fonts/` are under the GUST Font License, see
+The same goes for TUM Neue Helvetica (`fonts/TUMNeueHelvetica-*.ttf`). All
+rights to the font belong to TUM, and the MIT License does not cover it. Use
+it only as TUM allows (<https://www.tum.de/cd>).
+
+The other fonts in `fonts/` are under the GUST Font License, see
 [`fonts/README.md`](fonts/README.md).

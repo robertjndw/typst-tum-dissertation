@@ -32,9 +32,10 @@
     set par(justify: false, leading: 0.5em, spacing: 0.5em, first-line-indent: 0pt)
     set block(spacing: 0.5em)
 
-    place(top + left, dx: -5mm, dy: -59.45mm, text(
+    place(top + left, dx: -15mm, dy: -59.45mm, text(
       font: _fonts.cover-header,
       size: 10pt,
+      weight: "bold",
       fill: tum-colors.primary-blue,
       par(leading: 0.47em)[#school \ Technische Universität München],
     ))
