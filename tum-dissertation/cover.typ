@@ -1,4 +1,4 @@
-// Cover page, measured against a submitted TUM dissertation.
+// Cover page in the layout TUM asks for on submission.
 
 #import "colors.typ": tum-colors
 #import "fonts.typ": _fonts

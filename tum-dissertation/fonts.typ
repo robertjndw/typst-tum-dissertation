@@ -1,7 +1,6 @@
-// TUM Neue Helvetica is the TUM corporate font. The other families in each
-// list are free fallbacks, closest to the Latin Modern Sans and Nimbus Sans the
-// cover was measured from, for anyone who removes the TUM font. None of these
-// are built into Typst, which is why they're in `fonts/`.
+// TUM Neue Helvetica is the TUM corporate font. The second entry in each list
+// is a free fallback in case someone removes it. None of these ship with
+// Typst, hence `fonts/`.
 #let _fonts = (
   serif: "New Computer Modern",
   sans: ("TUM Neue Helvetica", "New Computer Modern Sans"),
